@@ -111,7 +111,7 @@ async function doJb() {
       load_bin(bin_u8);
     }
 
-    msgs.innerHTML = "تم التفعيل بنجاح ✔";
+    msgs.innerHTML = "تم التفعيل بنجاح";
     logger.info("===END===");
   } catch (e) {
     msgs.innerHTML = "فشل التفعيل أعد تشغيل جهازك";
